@@ -1,6 +1,6 @@
 FROM ruby:2.6
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client yarn
-RUN mkdir /myapp
+RUN apt-get update -qq && apt-get install -y npm postgresql-client
+RUN npm -g install yarn
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock

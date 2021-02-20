@@ -375,3 +375,9 @@ tags
 # End of https://www.toptal.com/developers/gitignore/api/ruby,rails,vim,sublimetext,visualstudiocode,rubymine,emacs,notepadpp
 
 db/development.sqlite3
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
