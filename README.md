@@ -1,2 +1,2 @@
 # Reimagined Couscous
-Rails6 Example with webpacker
+Rails6 Example fully working with webpacker
